@@ -9,6 +9,12 @@ def urlify(s):
 	        chars.insert((index + 2), '0')
 	return ''.join(chars)
 
+'''
+def urlify(s):
+	newString = s.replace(' ', "%20")
+	return newString
+'''
+
 print(urlify("My dog"))
 
 		
